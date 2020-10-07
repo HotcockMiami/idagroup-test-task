@@ -19,7 +19,7 @@ In any browser:
 
 ./image_app/views.py
 
-./image_app/converter.py
+./image_app/forms.py
 
 ### P.S.
 
