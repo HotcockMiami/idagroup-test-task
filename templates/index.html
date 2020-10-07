@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <body>
+            {% for item in pics %}
+            <br>
+                <a href={{item.image_resized.url}}>{{item.image_resized.name}}</a>
+            {% endfor %}
+            <br>
+            <a href = /images/upload>Загрузить новое изображение</a>
+        </body>
+    </head>
+</html>

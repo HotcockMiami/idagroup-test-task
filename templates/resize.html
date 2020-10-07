@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+    <form method="POST" enctype="multipart/form-data">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Save</button>
+        <p><a href = /images/index>Назад к списку</a></p>
+        <img src='{{ inst.image_resized.url }}' />
+    </form>
+</html>
