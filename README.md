@@ -1,3 +1,7 @@
+# Что делает и для чего нужно?
+
+Загружайте картинки после развёртки проекта по ссылке ниже, размер после этого изменяется прямо на бэке
+
 # idagroup-test-task
 
 Upload any images to http://127.0.0.1:8000/images/upload
@@ -24,3 +28,7 @@ In any browser:
 ### P.S.
 
 This task was made with purely developing in mind, so there is no DevOps things such as production deploy
+
+### TODO
+
+Перенести бизнес-логику из вьюхи
